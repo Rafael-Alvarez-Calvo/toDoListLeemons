@@ -1,0 +1,51 @@
+.task{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+
+    &:not(:last-of-type){
+        border-bottom: 1px solid #eced67;
+    }
+
+    input{
+        margin-right: auto;
+        font-size: 14px;
+        padding-right: 15px;
+        width: 80%;
+    }
+    
+    .hidden{
+        display: none;
+    }
+
+    label{
+        color: white;
+        margin-right: auto;
+
+    }
+
+    button {
+        background-color: transparent;
+    }
+    
+    &__edit{
+    
+        img{
+            max-width: 24px;
+            max-height: 24px;
+            position: relative;
+            top: 1px;
+            width: 100%;
+        }
+    }
+    
+    &__delete{
+    
+        img{
+            max-width: 25px;
+            max-height: 25px;
+            width: 100%;
+        }
+    }
+}

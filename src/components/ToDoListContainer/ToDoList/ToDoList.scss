@@ -1,0 +1,28 @@
+.list{
+
+    &__container{
+        align-items: center;
+        background-color: #494b5c;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 20px;
+        padding: 10px 15px;
+
+        ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+
+        > img{
+            max-width: 100px;
+        }
+
+        p{
+            color: white;
+        }
+    }
+}

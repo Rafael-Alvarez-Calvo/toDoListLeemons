@@ -1,0 +1,31 @@
+#root {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+  .main-container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+    height: 100vh;
+    justify-content: flex-start;
+    padding: 0 20px;
+    width: 90vw;
+  }
+
+  .header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+    &__title{
+      font-size: min(max(25px, 3vw), 40px);
+    }
+
+    &__logo{
+      max-width: 300px;
+      width: 50%;
+    }
+  }
+}
